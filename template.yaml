@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: net-backend-service-github
-  title: .Net backend service for GitHub
+  title: .NET backend service for GitHub
   description: Creates a .NET backend service in GitHub
   labels:
     example.com/custom: custom_label_value
