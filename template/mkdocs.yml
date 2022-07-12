@@ -1,0 +1,7 @@
+site_name: 'supplier-management'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core

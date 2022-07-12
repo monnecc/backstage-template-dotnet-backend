@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.name }}
+  description: Service to do supplier management
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    dev.azure.com/project-repo: Training/${{ values.name }}
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - dotnet
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: supplier-management-team
+  system: supplier-management
